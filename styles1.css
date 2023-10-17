@@ -1,0 +1,60 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+section {
+    margin: 2em;
+}
+
+ul, ol {
+    list-style: disc;
+    padding-left: 2em;
+}
+
+/* Стили для формы */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+input, textarea {
+    padding: 1em;
+    margin: 0.5em 0;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+/* Стили для футера */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
